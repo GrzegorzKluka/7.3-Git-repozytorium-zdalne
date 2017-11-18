@@ -1,14 +1,10 @@
-
 .title {
   text-align: center;
-  color: blue;
-}
+  color: blue; }
 
 footer {
   text-align: center;
-  color: blue;
-}
-
+  color: blue; }
 
 .col-1 {
   width: 8.33%; }
@@ -90,3 +86,5 @@ footer {
 
 .row:after {
   clear: both; }
+
+/*# sourceMappingURL=style.css.map */
