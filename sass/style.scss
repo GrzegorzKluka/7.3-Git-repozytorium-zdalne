@@ -1,12 +1,22 @@
 
-.title {
-  text-align: center;
-  color: blue;
-}
-
-footer {
-  text-align: center;
-  color: blue;
+.container {
+  padding: 10px 0;
+  line-height: 1.4em;
+  text-align: justify;
+  .title, h3 {
+    text-align: center;
+    color: blue;
+  }
+  .refren {
+    font-style: italic;
+    margin: 15px;
+    &::first-letter {
+      font-weight: bold;
+    } 
+  }
+  .zwrotka::first-letter {
+    font-weight: bold;
+  }
 }
 
 

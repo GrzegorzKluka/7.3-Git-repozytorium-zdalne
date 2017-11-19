@@ -1,10 +1,17 @@
-.title {
-  text-align: center;
-  color: blue; }
-
-footer {
-  text-align: center;
-  color: blue; }
+.container {
+  padding: 10px 0;
+  line-height: 1.4em;
+  text-align: justify; }
+  .container .title, .container h3 {
+    text-align: center;
+    color: blue; }
+  .container .refren {
+    font-style: italic;
+    margin: 15px; }
+    .container .refren::first-letter {
+      font-weight: bold; }
+  .container .zwrotka::first-letter {
+    font-weight: bold; }
 
 .col-1 {
   width: 8.33%; }
