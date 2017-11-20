@@ -2,9 +2,10 @@
   padding: 10px 0;
   line-height: 1.4em;
   text-align: justify; }
-  .container .title, .container h3 {
+  .container .title, .container h3, .container h5 {
     text-align: center;
-    color: blue; }
+    text-transform: uppercase;
+    color: black; }
   .container .refren {
     font-style: italic;
     margin: 15px; }
